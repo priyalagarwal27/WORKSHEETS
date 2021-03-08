@@ -1,0 +1,97 @@
+                                                                  WORKSHEET-1  Statistics
+
+
+Ans1. (A) True
+
+Ans2. (A) Central Limit Theorem
+
+Ans3. (B) Modeling bounded count data
+
+Ans4. (D) All of the mentioned
+
+Ans5. (C) Poisson
+
+Ans6. (B) False
+
+Ans7. (B) Hypothesis
+
+Ans8. (A) 0
+
+Ans9. (C) Outliers cannot conform to the regression relationship
+
+
+Ans10. Normal Distribution :- Also known as the Gaussian distribution.
+   ->  It is a probability distribution that is symmetric about the mean,showing that data near the mean are more frequent in occurrence than data far from the mean. 
+   ->  In graph form, normal distribution will appear as a bell curve.
+       Key term Normal Distribution
+    1. A normal distribution is the proper term for a probability bell curve.
+    2. In a normal distribution the mean is zero and the standard deviation is 1. It has zero skew and a kurtosis of 3.
+    3. Normal distributions are symmetrical, but not all symmetrical distributions are normal.
+    4. In reality, most pricing distributions are not perfectly normal.
+
+
+Ans11. Handling Missing Data :-
+   ->  One technique is to use the data analysis methods which are robust to the problems caused by the missing data.
+   ->  An analysis method is considered robust when there is confidence that mild to moderate violations of the assumptions will produce little to no bias 
+       or distortion in the conclusions drawn on the population.
+   ->  However,it is not always possible to use such techniques. Therefore,a number of alternative ways of handling the missing data has been developed.
+
+       Multiple imputation techniques are recommended :-  
+   ->  Multiple imputation is useful strategy for handling the missing data. 
+   ->  In a multiple imputation,instead of substituting a single value for each missing data,the missing values are replaced with a set of possible values 
+       which contain the natural variability and uncertainty of the right values. 
+       This approach begin with a prediction of the missing data using the existing data from other variables. 
+       The missing values are then replaced with the predicted values,and a full dataset called the imputed dataset is created.
+   ->  The benefit of the multiple imputation is that in addition to restoring the natural variability of the missing values,it incorporates the uncertainty 
+       due to the missing data, which results in a valid statistical inference.
+
+
+Ans12. A/B testing :- (Also known as split testing)
+   ->  It is a process of showing two variants of the same web page to different segments of website visitors at the same time and comparing 
+       which variant drives more conversions.
+   ->  It offers a very systematic way of finding out what works and what doesn’t in any given marketing campaign.Most marketing efforts are geared 
+       towards driving more traffic.But,as traffic acquisition becomes more difficult and expensive,it becomes paramount to offer the best experience 
+       to your users who come to your website.This will help them achieve their goals and allow them to convert in the fastest and most efficient manner possible. 
+   ->  A/B testing in marketing allows you to make the most out of your existing traffic.
+
+
+Ans13. Mean imputation is a method in which the missing value on a certain variable is replaced by the mean of the available cases.This method maintains the 
+       sample size and is easy to use, but the variability in the data is reduced,so the standard deviations and the variance estimates tend to be underestimated. 
+       The magnitude of the covariances and correlation also decreases by restricting the variability and this method often causes biased estimates,irrespective  
+       of the underlying missing data mechanism.For missings on multi-item questionnaires,mean imputation can be applied at the item level.One option is to impute 
+       the missing item scores with the item mean for each item.In that case the average of the respondents with observed scores for each item is computed and 
+       that average value is imputed for respondents with a missing score.Another option is to impute the person mean.In that method the average of the observed
+       item scores for each respondent is computed and that average is imputed for the item scores that are missing for that respondent. This option is also called 
+       average of the available items. 
+       Both these methods result in biased analysis results, especially when missing data are not MCAR. Nevertheless, these methods are often advised in questionnaire
+       manuals. 
+       Another method,that combines item mean imputation and person mean imputation is two-way imputation.In this method the imputed value is calculated by adding 
+       the person mean to the item mean and subtract the overall mean from that score.
+
+
+Ans14. Linear Regression :- 
+   ->  In statistics, linear regression is a linear approach to modeling the relationship between a scalar response and one or more explanatory variables.  
+   ->  The case of one explanatory variable is called simple linear regression.For more than one explanatory variable, the process is called multiple linear regression.
+   ->  Linear regression is a basic and commonly used type of predictive analysis.The overall idea of regression is to examine two things: 
+  
+  (1)  Does a set of predictor variables do a good job in predicting an outcome (dependent) variable?  
+  (2)  Which variables in particular are significant predictors of the outcome variable, and in what way do they indicated by the magnitude and sign of the 
+       beta estimates–impact the outcome variable?  
+   ->  These regression estimates are used to explain the relationship between one dependent variable and one or more independent variables. 
+
+
+Ans15. Branches of Statistics :- Descriptive Statistics and Inferential Statistics
+   1.  Descriptive Statistics :
+       a. Descriptive statistics deals with the presentation and collection of data. This is usually the first part of a statistical analysis. 
+       b. It is usually not as simple as it sounds,and the statistician needs to be aware of designing experiments,choosing the right focus group and avoid biases 
+          that are so easy to creep into the experiment.
+       c. Different areas of study require different kinds of analysis using descriptive statistics.For example, a physicist studying turbulence in the laboratory 
+          needs the average quantities that vary over small intervals of time.The nature of this problem requires that physical quantities be averaged from a host 
+          of data collected through the experiment.
+   2.  Inferential Statistics :
+       a. Inferential statistics, as the name suggests, involves drawing the right conclusions from the statistical analysis that has been performed using 
+          descriptive statistics. In the end, it is the inferences that make studies important and this aspect is dealt with in inferential statistics.
+       b. Most predictions of the future and generalizations about a population by studying a smaller sample come under the purview of inferential statistics. 
+          Most social sciences experiments deal with studying a small sample population that helps determine how the population in general behaves. 
+          By designing the right experiment, the researcher is able to draw conclusions relevant to his study.
+ 

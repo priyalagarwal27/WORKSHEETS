@@ -1,0 +1,102 @@
+                                             WORKSHEET-1   Machine Learning
+
+
+Ans1. (B) 4
+
+Ans2. (D) 1, 2 and 4
+
+Ans3. (D) formulating the clustering problem
+
+Ans4. (A) Euclidean distance
+
+Ans5. (B) Divisive clustering
+
+Ans6. (D) All answers are correct
+
+Ans7. (A) Divide the data points into groups
+
+Ans8. (B) Unsupervised learning
+
+Ans9. (D) All of the above
+
+Ans10.(A) K-means clustering algorithm
+
+Ans11.(D) All of the above
+
+Ans12.(A) Labeled data
+
+
+Ans13. Calculating Cluster analysis :-
+       The cluster analysis follows three basic steps: 
+    1) calculate the distances, 
+    2) link the clusters, and 
+    3) choose a solution by selecting the right number of clusters.
+
+   ->  First, we have to select the variables upon which we base our clusters.
+   ->  Now we can specify whether we want to output the proximity matrix (these are the distances calculated in the first step of the analysis).
+   ->  Now we should add the Dendrogram.The Dendrogram will graphically show how the clusters are merged and allows us to identify the appropriate number of clusters.
+   ->  It allows us to specify the distance measure and the clustering method. First, we need to define the correct distance measure.SPSS offers three large 
+       blocks of distance measures for interval (scale), counts (ordinal), and binary (nominal) data.
+   ->  For interval data,the Square Euclidian Distance is commonly used.It is based on the Euclidian Distance between two observations, which is the square root of 
+       the sum of squared distances.Since the distance is squared,it increases the importance of large distances,while weakening the importance of small distances.
+   ->  If we have ordinal data we can select between Chi-Square or a standardized Chi-Square called Phi-Square.  
+   ->  For binary data, the Squared Euclidean Distance is commonly used.
+
+   ->  Next, we have to choose the Cluster Method.
+       There are different choices : between-groups linkage, nearest neighbor: single linkage, furthest neighbor: complete linkage, Ward's method.
+       Single linkage works best with long chains of clusters, while complete linkage works best with dense blobs of clusters.Between-groups linkage works with both 
+       cluster types.
+       It is recommended to use single linkage first. Although single linkage tends to create chains of clusters, it helps in identifying outliers.  
+       After excluding these outliers, we can move onto Ward’s method.  
+       Ward’s method uses the F value (like in ANOVA) to maximize the significance of differences between clusters.
+    
+   ->  At last standardization is done.If the variables have different scales and means we might want to standardize either to Z scores or by centering the scale.  
+       We can also transform the values to absolute values if we have a data set where this might be appropriate.
+
+
+Ans14. Measuring Clustering Quality :-
+       There are few methods for measuring the quality of clustering.In general,these methods can be categorized into two groups according to whether ground truth 
+       is available.Here, 'ground truth' is the ideal clustering that is often built using human experts.These are :
+    1. Extrinsic Method :-
+       If ground truth is available , it can be used by extrinsic methods, which compare the clustering against the group truth and measure.
+       Examples are Adjusted Rand index, Fowlkes-Mallows scores, Mutual information based scores, Homogeneity, Completeness and V-measure.
+    2. Intrinsic Method :-
+       When the ground truth of a dataset is not available, we have to use an intrinsic method to assess the clustering quality.
+       Intrinsic methods evaluate a clustering by examining how well the clusters are separated and how compact the clusters are.
+       Many intrinsic methods have the advantage of similarity metric between objects in the data set.
+       Examples are Silhouette Coefficient, Calinski-Harabasz Index, Davies-Bouldin Index etc.
+
+
+Ans15. Cluster Analysis :-
+   ->  Cluster analysis groups data objects based only on information found in the data that describes the objects and their relationships.
+       The goal is that the objects within a group be similar(or related) to one another and different from(or unrelated to) the objects in other groups.
+       The greater the similarity (or homogeneity) within a group and the greater the difference between groups,the better or more distinct the clustering.
+       The most common applications of cluster analysis in a business setting is to segment customers or activities.
+
+       Types of Cluster Analysis :- These types are Centroid Clustering, Density Clustering, Distribution Clustering, and Connectivity Clustering.
+   ->  Centroid Clustering :-
+       In centroid cluster analysis you choose the number of clusters that you want to classify. 
+       In centroid-based clustering, clusters are represented by a central vector, which may not necessarily be a member of the data set.
+       The algorithm will start by randomly selecting centroids to group the data points into the two pre-defined clusters. 
+       A line is then drawn separating the data points into the two clusters. The algorithm will then reposition the centroid relative to all the points within 
+       each cluster. The centroids and points in a cluster will adjust through all iteratations, resulting in optimized clusters. 
+       The result of this analysis is the segmentation of your data into the two clusters.
+
+   ->  Density Clustering :-
+       In density-based clustering, clusters are defined as areas of higher density than the remainder of the data set.
+       Density clustering groups data points by how densely populated they are.For this, the algorithm will select a random point then start measuring the distance
+       between each point around it. For most density algorithms a predetermined distance between data points is selected to benchmark how closely points need 
+       to be to one another to be considered related.Then, the algorithm will identify all other points that are within the allowed distance of relevance. 
+       This process will continue to iterate by selecting different random data points to start with until the best clusters can be identified.
+
+   ->  Distribution Clustering :-
+       It is a great technique to assign outliers to clusters.
+       It identifies the probability that a point belongs to a cluster. Around each possible centroid the algorithm defines the density distributions for each 
+       cluster, quantifying the probability of belonging based on those distributions. The algorithm optimizes the characteristics of the distributions to best
+       represent the data.
+
+   ->  Connectivity Clustering :- 
+       Unlike the other three techniques of clustering analysis, it initially recognizes each data point as its own cluster. 
+       The primary premise of this technique is that points closer to each other are more related. The iterative process of this algorithm is to continually 
+       incorporate a data point or group of data points with other data points and/or groups until all points are swamped into one big cluster. 
+       The critical input for this type of algorithm is determining where to stop the grouping from getting bigger.

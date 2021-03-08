@@ -1,0 +1,57 @@
+                                                              WORKSHEET-1  SQL(Structured Query Language)
+
+
+Ans1. A (Create) and D (ALTER)
+
+Ans2. A (Update),B (Delete) and C (Select)
+
+Ans3. B (Structured Query Language)
+
+Ans4. B (Data Definition Language)
+
+Ans5. A (Data Manipulation Language)
+
+Ans6. C (Create Table A (B int,C float))
+
+Ans7. B (Alter Table A ADD COLUMN D float)
+
+Ans8. B (Alter Table A Drop Column D)
+
+Ans9. B (Alter Table A Alter Column D int)
+
+Ans10. A (Alter Table A Add Constraint Primary Key B)
+
+Ans11. Data-Warehouse :-
+    -> A Data Warehouse is a type of data management system that is designed to enable and support business intelligence (BI) activities, especially analystics. 
+    -> Data Warehouse are solely intended to perform qureries and analysis and after contain large amount of historical data. 
+    -> The data within a data warehouse is usually derived from wide range of source such as application log files and transaction.
+
+Ans12. Difference between OLTP vs. OLAP :-
+   a. OLAP is used for data analysis like sales analysis, market research. Example: Data Warehouse. 
+      OLTP is used to manage very large number of online short transaction. Example: ATM.
+   b. OLAP uses data warehouse.
+      OLTP uses traditional DBMS.
+   c. OLAP manages all insert,update and delete transaction.
+      OLTP is mainly used for data reading.
+
+Ans13.Characteristics of Data Warehouse :-
+    a.Subject-Oriented:- They can analyze data about a paticular subject or functional area (such as sales).
+    b.Integrated:- Data warehouse create consistency among different datatypes from disparate sources.
+    c.NonVolatile:- Once data is in a data warehouse, it is stable and doesn't change.
+    d.Time-Variant:- Data warehouse analysis looks at change overtime.
+    The data warehouse serves as the functional foundation for middleware BI environments that provides end users with reports, dashboard and other interface.
+
+Ans14. Star-Schema :-
+    -> The Star Schema architecture is the simplest data warehouse schema. 
+    -> It is called a star schema because the diagram resembles a star, with points radiating from center. 
+    -> The center of the star consist of fact table and the point of the star are the dimension tables. 
+    -> Usually the fact tables in a star are in third normal form (3NF) where as dimensional tables are de-normalized. 
+    -> Despite the fact that the star-schema is the simplest architecture it is most commonly used nowdays and is recommended by oracle.
+
+Ans15. SETL :- 
+    -> Short for Set Theory as a Language (or set language).
+    -> SETL is a high-level-programming language that's based on the mathematical theory of sets. 
+    -> It was developed in the early 1970's by mathematician Professor J.Schwartz.
+    -> SETL is an resembles C and in many cases similar to Perl.
+    -> In SETL every statment is terminated by a semicolon(;).
+    -> Variables names are automatically determined by their last assignment.
