@@ -1,0 +1,58 @@
+                                                        WORKSHEET-2  MACHINE LEARNING
+
+
+Ans1. A (2 Only)
+
+Ans2. D (1, 2 and 4)
+
+Ans3. A (True)
+
+Ans4. A (1 only)
+
+Ans5. B (1)
+
+Ans6. B (No)
+
+Ans7. A (Yes)
+
+Ans8. D (All of the above)
+
+Ans9. D (1 and 3)
+
+Ans10. A (K-means clustering algorithm)
+
+Ans11. D (All of the above)
+
+Ans12. D (All of the above)
+
+Ans13. K sensitive to outliers :-
+
+   ->  K-Means clustering algorithm is most sensitive to outliers as it uses the mean of cluster data points to find the cluster center.
+   ->  An outlier is a point which is different from the rest of data points.
+   ->  K-medoids clustering is a variant of K-means that is more robust to noises and outliers. Instead of using the mean point as the center 
+       of a cluster, K-medoids uses an actual point in the cluster to represent it. Medoid is the most centrally located object of the cluster,
+       with minimum sum of distances to other points.
+   ->  Mean is greatly influenced by the outlier and thus cannot represent the correct cluster center, while medoid is robust to the outlier 
+       and correctly represents the cluster center.
+
+Ans14. Reasons for better K-means :-
+      
+   ->  K-means has better than other clustering algorithms like density-based, expectation-maximisation. It is one of the most robust methods, especially 
+       for image segmentation and image annotation projects. 
+   ->  K-means is very simple and easy to implement.This is considered one of the simplest unsupervised learning algorithms, wherein data is split
+       into k distinct clusters based on distance to the centroid of a cluster.
+   ->  K-means is used to learn feature representations for images (use k-means to cluster small patches of pixels from natural images, then represent images
+       in the basis of cluster centres; repeat this several times to form a “deep” network of feature representations) gives image classification results 
+       that are competitive with much more complex deep neural network models. In fact, a lot of k-means applications are now done using support vector machines.
+
+Ans15. K-means a deterministic algorithm :- 
+     
+   ->  A deterministic algorithm is simply an algorithm that has a predefined output. For instance if you are sorting elements that are strictly 
+       ordered (no equal elements) the output is well defined and so the algorithm is deterministic. In fact most of the computer algorithms are deterministic.
+   ->  K-means algorithm is highly sensitive to the choice of initial cluster centers. Thus, the algorithm easily gets trapped with local optimum if the initial 
+       centers are chosen randomly. 
+   ->  There is a deterministic initialization algorithm for K-means (DK-means) by exploring a set of probable centers through a constrained bi-partitioning 
+       approach. 
+   ->  The proposed algorithm is compared with classical K-means with random initialization and improved K-means variants such as K-means++ and MinMax 
+       algorithms. It is also compared with three deterministic initialization methods. Experimental analysis on gene expression datasets demonstrates that 
+       DK-means achieves improved results in terms of faster and stable convergence, and better cluster quality as compared to other algorithms.

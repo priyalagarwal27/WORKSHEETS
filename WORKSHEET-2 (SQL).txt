@@ -1,0 +1,34 @@
+                                                        WORKSHEET-2  SQL(Structured Query Language)
+
+
+Ans1. D (Unique)
+
+Ans2. C (Null)
+
+Ans3. A (Each entry in the primary key uniquely identifies each entry or row in the table)
+
+Ans4. A (There should not be any duplicate entries)
+
+Ans5. B (Foreign Key)
+
+Ans6. A (0)
+
+Ans7. A (One to many)
+
+Ans8. D (Many to many)
+
+Ans9. D (None of them)
+
+Ans10. D (2)
+
+Ans11. B (Many to one)
+
+Ans12. C (Table)
+
+Ans13. A (Insert in to)
+
+Ans14. B (Unique) 
+       C (Primary Key) 
+
+Ans15. A (A blood group can contain one of the following values - A, B, AB and O)
+       C (A blood group cannot have null values)
