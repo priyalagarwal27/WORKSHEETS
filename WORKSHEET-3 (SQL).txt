@@ -1,0 +1,53 @@
+                                                                      WORKSHEET- 3 (SQL)
+
+
+Ans1.  create table Customers(
+    -> CustomerNumber int not null,
+    -> customerName varchar(20),
+    -> ContactLastName varchar(10),
+    -> ContactFirstName varchar(10),
+    -> Phone int,
+    -> AddressLine1 varchar(15),
+    -> AddressLine2 varchar(15),
+    -> City varchar(20),
+    -> State varchar(10),
+    -> PostalCode int,
+    -> Country varchar(20),
+    -> SalesRepEmployeeNumber int,
+    -> CreditLimit int);
+
+Ans2.  create table Orders(
+    -> OrderNumber int not null,
+    -> OrderDate Date,
+    -> RequireDate Date,
+    -> ShippedDate Date,
+    -> Status varchar(10),
+    -> Comments varchar(20),
+    -> CustomerNumber int);
+
+Ans3.  describe Orders;       (#Structure of table)
+       select * from Orders;
+
+Ans4.  select Comments from Orders;
+
+Ans5.  select OrderDate, count(OrderNumber) as 'Total Number of Orders' from Orders;
+
+Ans6.  select EmployeeNumber,LastName,FirstName from Employees;
+
+Ans7.  select OrderNumber, CustomerName from Orders inner join Customers on Orders.CustomerNumber=Customers.CustomerNumber;
+
+Ans8.  select CustomerName,concat(FirstName,LastName) from Employees inner join Customers on Employees.EmployeesNumber=Customer.SalesRepEmployessNumber;
+
+Ans9.  select PaymentDate,sum(Amount) from Payments group by PaymentDate;
+
+Ans10. select ProductName,MSRP,ProductDescription from Products;
+
+Ans11. select ProductName,productDescription from Products inner join OrderDetails on Products.ProductCode=OrderDetail.ProductCode group by Products.ProductCode order by sum(Quantity Ordered)desc limit1;
+
+Ans12. select City from Orders inner join Customer on City.customernumber=Customer.customerNumber group by City Order by count(OrderNumber)desc limit1;
+
+Ans13. select State from Customers group by State Order by Count(CustomerNumber) desc limit 1;
+
+Ans14. select EmployeeNumber,concat(FirstName,LastName) as 'Full Name' from Employees;
+
+Ans15. select OrderNumber,CustomerName,QuantityOrders * PriceEach as 'Total Amounts Paid' fromm OrderDetails as a inner join Orders as b on a.OrderNumber=b.orderNumber inner join Customer as c on b.customerNumber=c.CustomerNumber;

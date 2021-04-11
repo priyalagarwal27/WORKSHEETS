@@ -1,0 +1,66 @@
+                                                                        WORKSHEET- 3 (STATISTICS)
+
+
+Ans1. (B) Total Variation = Residual Variation + Regression Variation
+
+Ans2. (C) binomial
+
+Ans3. (A) 2
+
+Ans4. (A) Type-I error
+
+Ans5. (C) Level of confidence
+
+Ans6. (B) Increases
+
+Ans7. (B) Hypothesis
+
+Ans8. (D) All of the mentioned
+
+Ans9. (A) 0
+
+Ans10. Bayes' theorem, named after 18th-century British mathematician Thomas Bayes, is a mathematical formula for determining conditional probability. Conditional 
+       probability is the likelihood of an outcome occurring, based on a previous outcome occurring. Bayes' theorem provides a way to revise existing predictions or 
+       theories (update probabilities) given new or additional evidence. In finance, Bayes' theorem can be used to rate the risk of lending money to potential borrowers.
+
+   ->  Bayes' theorem is also called Bayes' Rule or Bayes' Law and is the foundation of the field of Bayesian statistics. 
+
+   ->  Formula For Bayes' Theorem
+       P(A|B) = P(A).P(B|A) / P(B)
+	 
+       where:
+       P(A)= The probability of A occurring
+       P(B)= The probability of B occurring
+       P(A|B)=The probability of A given B
+       P(B|A)= The probability of B given A
+
+Ans11. A z-score describes the position of a raw score in terms of its distance from the mean, when measured in standard deviation units. The z-score is positive if 
+       the value lies above the mean, and negative if it lies below the mean.
+
+       Z = x-u/b
+       Z = standard score
+       x = observed value
+       u = mean of the sample
+       b(sigma)=standard deviation of the sample
+
+Ans12. A t-test is a statistical test that compares the means of two samples. It is used in hypothesis testing, with a null hypothesis that the difference in group
+       means is zero and an alternate hypothesis that the difference in group means is different from zero.
+
+       t = (m-u) / (s/sqrt(n))
+       t = Student's t-test
+       m = mean
+       u = theoretical value
+       s = standard deviation
+       n = variable set size
+
+Ans13. In statistics, a percentile (or a centile) is a type of quantile which divides the given probability distribution, or sample, into 100 equal-sized intervals;
+       this allows the data to be analyzed in terms of percentages. For example, the 20th percentile is the value (or score) below which 20% of the observations are 
+       found, and above which 80% are found.
+
+Ans14. Analysis of variance (ANOVA) is a collection of statistical models and their associated estimation procedures(such as the "variation" among and between groups)
+       used to analyze the differences among group means in a sample.The ANOVA is based on the law of total variance,where the observed variance in a particular 
+       variable is partitioned into components attributable to different sources of variation.In its simplest form,ANOVA provides a statistical test of whether two or
+       more population means are equal, and therefore generalizes the t-test beyond two means.
+
+Ans15. An ANOVA test is a way to find out if survey or experiment results are significant. In other words, they help you to figure out if you need to reject the null
+       hypothesis or accept the alternate hypothesis. Basically, you're testing groups to see if there's a difference between them.
