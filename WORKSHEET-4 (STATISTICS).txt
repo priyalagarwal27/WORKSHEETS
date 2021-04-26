@@ -1,0 +1,91 @@
+                                                                      WORKSHEET-4 (STATISTICS)
+
+
+Ans1. The Central Limit Theorem tells us that as sample sizes get larger, the sampling distribution of the mean will become 
+      normally distributed, even if the data within each sample are not normally distributed.
+      The Central Limit Theorem is important for statistics because it allows us to safely assume that the sampling distribution 
+      of the mean will be normal in most cases. This means that we can take advantage of statistical techniques that assume a 
+      normal distribution.
+
+Ans2. Sampling is a technique of selecting individual members or a subset of the population to make statistical inferences from them and estimate characteristics 
+      of the whole population.
+      Types of Sampling methods:
+      Probability sampling: Probability sampling is a sampling technique where a researcher sets a selection of a few criteria and chooses members of a 
+      population randomly. 
+      Non-probability sampling: In non-probability sampling, the researcher chooses members for research at random. This sampling method is not a fixed
+      or predefined selection process. 
+
+Ans3. Type 1 error, in statistical hypothesis testing, is the error caused by rejecting a null hypothesis when it is true. 
+      Type II error is the error that occurs when the null hypothesis is accepted when it is not true.   
+      Type I error is equivalent to false positive.
+
+Ans4. Normal Distribution :- Also known as the Gaussian distribution.
+   ->  It is a probability distribution that is symmetric about the mean,showing that data near the mean are more frequent in occurrence than data far from the mean. 
+   ->  In graph form, normal distribution will appear as a bell curve.
+       Key term Normal Distribution
+    1. A normal distribution is the proper term for a probability bell curve.
+    2. In a normal distribution the mean is zero and the standard deviation is 1. It has zero skew and a kurtosis of 3.
+    3. Normal distributions are symmetrical, but not all symmetrical distributions are normal.
+    4. In reality, most pricing distributions are not perfectly normal.
+
+Ans5. Covariance:-
+      Covariance is a measure of how much two random variables vary together.It involves the relationship between two variables 
+      or data sets.It lies between -infinity and +infinity.
+      Correlation:-
+      Correlation is a statistical measure that indicates how strongly two variables are related.It is a scaled version of covariance.
+      It lies between -1 and +1.
+
+Ans6. Univariate statistics summarize only one variable at a time.
+      Bivariate statistics compare two variables.
+      Multivariate statistics compare more than two variables.
+
+Ans7. Sensitivity measures the proportion of positives that are correctly identified (i.e. the proportion of those who have some condition (affected) who are 
+      correctly identified as having the condition).
+      Sensitivity Formula: In probability notation: P(T+|D+) = TP / (TP+FN). 
+
+Ans8. Hypothesis testing is a statistical method that is used in making statistical decisions using experimental data.
+      Hypothesis testing is basically an assumptions that we make about the population parameter.
+      Hypothesis testing is formulated in terms of two hypotheses:
+      H0: Null hypothesis: The complement of the alternative hypothesis.
+      H1: Alternative Hypothesis: The hypothesis that we are interested in proving.
+
+Ans9. Quantitative data:- 
+      Quantitative data are measures of values or counts and are expressed as numbers.
+      These are data about numeric variables.
+      Qualitative data:- 
+      Qualitative data are measures of 'types' and may be represented by a name, symbol, or a number code.
+      Qualitative data are data about categorical variables.
+
+Ans10. Range: 
+       In statistics, the range is the spread of your data from the lowest to the highest value in the distribution. It is a commonly used measure of variability.
+       The range is calculated by subtracting the lowest value from the highest value.
+       Interquartile Range: 
+       The interquartile range is a measure of where the “middle fifty” is in a data set. Where a range is a measure of where the beginning and end are in a set,
+       an interquartile range is a measure of where the bulk of the values lie.
+       The interquartile range formula is the first quartile subtracted from the third quartile: IQR = Q3 – Q1.
+
+Ans11. A bell curve is a common type of distribution for a variable, also known as the normal distribution. The term "bell curve" originates from the fact 
+       that the graph used to depict a normal distribution consists of a symmetrical bell-shaped curve.
+       The highest point on the curve, or the top of the bell, represents the most probable event in a series of data, while all other possible occurrences 
+       are symmetrically distributed around the mean, creating a downward-sloping curve on each side of the peak.
+       The width of the bell curve is described by its standard deviation.
+
+Ans12. An outlier is defined as being any point of data that lies over 1.5 IQRs below the first quartile (Q1) or above the third quartile (Q3)in a data set.
+	High = (Q3) + 1.5 IQR
+	Low = (Q1) – 1.5 IQR
+
+Ans13. The P value, or calculated probability, is the probability of finding the observed, or more extreme, results when the null hypothesis (H 0)
+       of a study question is true – the definition of 'extreme' depends on how the hypothesis is being tested.
+
+Ans14. Binomial probability refers to the probability of exactly x successes on n repeated trials in an experiment which has two possible outcomes 
+       (commonly called a binomial experiment). 
+       If the probability of success on an individual trial is p , then the binomial probability is nCx⋅px⋅(1−p)n−x .
+
+Ans15. Analysis of variance (ANOVA) is a statistical technique that is used to check if the means of two or more groups are significantly different from each other. 
+       ANOVA checks the impact of one or more factors by comparing the means of different samples.
+
+       Applications: 
+       ANOVA, or its non-parametric counterparts, allow you to determine if differences in mean values between three or more groups are by chance or if they 
+       are indeed significantly different. 
+       ANOVA is particularly useful when analyzing the multi-item scales common in market research.
+

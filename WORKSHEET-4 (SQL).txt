@@ -1,0 +1,31 @@
+                                                        WORKSHEET-4  SQL(Structured Query Language)
+
+                                             
+Ans1. SELECT ordernumber, shippeddate FROM Orders WHERE ordernumber = (SELECT avg(ordernumber) FROM Orders);
+
+Ans2. SELECT ordernumber, orderdate FROM Orders WHERE ordernumber = (SELECT avg(ordernumber) FROM Orders);
+
+Ans3. SELECT productname, MSRP FROM Products WHERE MSRP = (SELECT MIN(MSRP) FROM Products);
+
+Ans4. SELECT productname, quantityinstock FROM Products WHERE quantityinstock = (SELECT MAX(quantityinstock) FROM Products);
+
+Ans5. SELECT productName, COUNT(DISTINCT productCode) FROM Products GROUP BY productName ORDER BY 2 DESC;
+
+Ans6. SELECT * Top 1 customername from customers join payements on customers.customernumber=payments.customernumber group by customername order by count(*) DESC;
+
+Ans7. SELECT cutomerNumber, customerName FROM Customers WHERE city= 'Melbourne city';
+
+Ans8. SELECT * FROM Customers WHERE customername LIKE 'N%';
+
+Ans9. SELECT * customerName FROM Customers WHERE city= 'Las Vegas'and WHERE phone=‘^7*’ ;
+
+Ans10. SELECT  customername from Customer where creditlimit>1000 and city=' “Las Vegas”or ”Nantes” or “Stavern” ;
+
+Ans11. SELECT  ordernumber from Orderdetails where quantityorderd < 10 ;
+
+Ans12. select ordernumber from Orders join Customers on customers.customernumber=ordernumber.customernumber WHERE customername LIKE 'N%' ;
+
+Ans13. Select ordernumber from Orders join Customers on customers.customernumber=status.customernumber WHERE (status = "Denied") ;
+
+Ans15. SELECT checkNumber  FROM Payments WHERE amount > 1000;
+

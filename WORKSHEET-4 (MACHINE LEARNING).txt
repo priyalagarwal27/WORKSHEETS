@@ -1,0 +1,93 @@
+                                                                        WORKSHEET-4  MACHINE LEARNING
+
+
+Ans1. C (between -1 and 1)
+
+Ans2. C (Recursive feature elimination)
+
+Ans3. C (hyperplane)
+
+Ans4. D (Support Vector Classifier)
+
+Ans5. C (old coefficient of ‘X’ ÷ 2.205)
+
+Ans6. B (increases)
+
+Ans7. C (Random Forests are easy to interpret)
+
+Ans8. (B) Principal Components are calculated using unsupervised learning techniques
+      (C) Principal Components are linear combinations of Linear Variables.
+
+Ans9. (A) Identifying developed, developing and under-developed countries on the basis of factors like GDP, poverty index, employment rate, population and living index
+      (B) Identifying loan defaulters in a bank on the basis of previous years’ data of loan accounts.
+
+Ans10. (A) max_depth 
+       (B) max_features
+       (D) min_samples_leaf
+
+
+Ans11. Outliers are extreme values that deviate from other observation on data. Outliers is an observation that diverges from an overall pattern on a sample.
+       In staistics an outliers is a datapoint that differs significantly from others observation.
+
+       The box plot is a useful graphical display for describing the behaviour of the data in the middle as well as the ends of the distribution.
+       The median (or center point) is also called second quartile of the data.
+       Q1 is the first quartile of the data i.e. to say 25% of the data lies between minimum and Q1.
+       Q3 is the the third quartile of the data, i.e. to say 75 % of the data lies between minimum and Q3.
+
+       The difference between Q3 and Q1 is called the Inter-Quartile range or IQR=Q3-Q1
+
+       Lower Bound= (Q1-1.5*IQR)
+       Upper Bound= (Q3+1.5*IQR)
+       Any data point less than the lower bound or more than the upper Bound is considerd as outliers.                                            
+
+
+Ans12.  In Bagging each model receives equal weight but in boosting models are weighted according to their performance.
+        In Bagging is each model is built independently and in Boosting new models are influenced by performance of previously built models.
+        Bagging tries to solve overfitting problems and Boosting tries to reduce bias.
+        If the Classifier is unstable (High variance) then apply bagging. If the classifier is stable and simple (high Bias) then apply Boosting.
+        Bagging aims to decrease variance ,not bias whereas Boosting aims to decrease bias ,not variance.
+	   	         
+
+Ans13. Adjusted R-Squared in linear regression:
+
+       The adjusted R-squared is a modified version of R-squared that has been adjusted for the number of predictors in the model.
+       The adjusted R-squared increases only if the new term improves the model more than would be expected by chance. It decreases when a predictor 
+       improves the model by less than expected by chance. 
+       Adjusted R2 will always be less than or equal to R2.
+       Adjusted R-Squared can be calculated mathematically in terms of sum of squares .
+       The only difference between R-square and adjusted R-square equation is degree of freedom.
+      
+       Adjusted R-squared value can be calculated based on value of r-squared,number of independent variables(predictors),total sample size.
+                                                         
+                                           R2adjusted = 1-[(1-R2)(N-1)/N-p-1]
+
+       where,
+          R2 = sample R-square
+           p = Number of predictors
+           N = Total sample size 
+
+
+Ans14. Difference between Normalisation and Standardisation :-
+
+                  Normalisation	                                                                             Standardisation
+
+Minimum and maximum value of features are used for scaling.	                         Mean and standard deviation is used for scaling.
+It is used when features are of different scales.        	                         It is used when we want to ensure zero mean and unit standard deviation.
+Scales values between [0, 1] or [-1, 1].	                                         It is not bounded to a certain range.
+It is really affected by outliers.	                                                 It is much less affected by outliers.
+Scikit-Learn provides a transformer called MinMaxScaler for Normalization.               Scikit-Learn provides a transformer called StandardScaler for standardization.
+It is useful when we don’t know about the distribution	                                 It is useful when the feature distribution is Normal or Gaussian.
+It is a often called as Scaling Normalization	                                         It is a often called as Z-Score Normalization.
+
+
+Ans15. Cross Validation:-
+       Cross validation is having the option of Kfold. Kfold is used an integer value is passed to cv.Integer value depends upon the dataset size if k=10 taken.
+       We will use 10 kfold to divide our dataset into 10 folds. Every fold own accuracy score and the average of all fold value accuracy score is the final 
+       percentage the learning rate of particular model.
+       Cross validation is used to trained the model to avoid any kind of Bias and Varied data. Cross Validation avoid the under fitting and over fitting to the 
+       model and make it more learn with different data of training and testing.
+
+       Advantages and Disadvantages :-
+       Advantages of this method is that we make use of all data point and hence it is low bias. 
+       Disadvantages of this method is that it leads to higher variation in the testing model as we are testing against one data point and it takes a lot 
+       of excution time as it iterates over the number of data points, times.   
