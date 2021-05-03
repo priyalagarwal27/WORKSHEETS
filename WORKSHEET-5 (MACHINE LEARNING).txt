@@ -1,0 +1,115 @@
+                                                                  WORKSHEET - 5   MACHINE LEARNING 
+
+
+Ans1. Linear regression identifies the equation that produces the smallest difference between all of the observed values and their fitted values. 
+      To be precise, linear regression finds the smallest sum of squared residuals that is possible for the dataset. Regression model fits the data well if the    
+      differences between the observations and the predicted values are small and unbiased. Unbiased in this context means that the fitted values are not
+      systematically too high or too low anywhere in the observation space.However, before assessing numeric measures of goodness-of-fit, like R-squared, 
+      you should evaluate the residual plots. Residual plots can expose a biased model far more effectively than the numeric output by displaying problematic
+      patterns in the residuals. If your model is biased, you cannot trust the results. If your residual plots look good, go ahead and assess your R-squared
+      and other statistics.
+
+Ans2. TSS(toatal Sum of Squares):- The squared differences between the observed dependent variable and its mean.This as the dispersion of the observed 
+      variables around the mean – much like the variance in descriptive statistics.
+      ESS(Explained Sum of Squared):-  It is the sum of the differences between the predicted value and the mean of the dependent variable.It as a measure that       
+      describes how well our line fits the data.If this value of ESS is equal to the sum of squares total, it means our regression model captures all the observed       
+      variability and is perfect.
+      RSS(Residual Sum of Squared):- The error is the difference between the observed value and the predicted value.The error is the difference between 
+      the observed value and the predicted value.
+      Mathematically, SST = SSR + SSE.
+
+Ans3. Regularization is one of the basic and most important concept in the world of Machine Learning.Regularizations are techniques used to reduce
+      the error by fitting a function appropriately on the given training set and avoid overfitting.
+      Often, the linear regression model comprising of a large number of features suffers from some of the following:
+      Overfitting: Overfitting results in the model failing to generalize on the unseen dataset.
+      Multicollinearity: Model suffering from multicollinearity effect.
+      Computationally Intensive: A model becomes computationally intensive.
+      The above problem makes it difficult to come up with a model which has higher accuracy on unseen data and which is stable enough.
+      In order to take care of the above problems, one goes for adopting or applying one of the regularization techniques.
+
+Ans4. The Gini impurity measure is one of the methods used in decision tree algorithms to decide the optimal split from a root node, and subsequent splits.
+      Gini Impurity tells us what is the probability of misclassifying an observation.Gini index or Gini impurity measures the degree or probability of 
+      a particular variable being wrongly classified when it is randomly chosen.A Gini Index of 0.5 denotes equally distributed elements into some classes.
+
+Ans5. In decision trees, over-fitting occurs when the tree is designed so as to perfectly fit all samples in the training data set. Thus it ends up with 
+      branches with strict rules of sparse data. Thus this effects the accuracy when predicting samples that are not part of the training set.
+      One of the methods used to address over-fitting in decision tree is called pruning which is done after the initial training is complete. In pruning,
+      you trim off the branches of the tree, i.e., remove the decision nodes starting from the leaf node such that the overall accuracy is not disturbed. 
+      This is done by segregating the actual training set into two sets: training data set, D and validation data set, V. Prepare the decision tree using the       
+      segregated training data set, D. Then continue trimming the tree accordingly to optimize the accuracy of the validation data set, V.
+
+Ans6. A successful approach to reducing the variance of neural network models is to train multiple models instead of a single model and to combine the
+      predictions from these models. This is called ensemble learning and not only reduces the variance of predictions but also can result in predictions
+      that are better than any single model.
+      Generally, ensemble learning involves training more than one network on the same dataset, then using each of the trained models to make a prediction before          
+      combining the predictions in some way to make a final outcome or prediction. Ensembling of models is a standard approach in applied machine learning to
+      nsure that the most stable and best possible prediction is made.
+
+Ans7.  Differences Between Bagging and Boosting
+
+  S.NO                                BAGGING	                                                  BOOSTING
+   1.	    Simplest way of combining predictions that belong to the same type.	      A way of combining predictions that belong to the different types.
+   2.	    Aim to decrease variance, not bias.	                                      Aim to decrease bias, not variance.
+   3.	    Each model receives equal weight.	                                      Models are weighted according to their performance.
+   4.	    Each model is built independently.	                                      New models are influenced by performance of previously built models.
+   5.	    Bagging tries to solve over-fitting problem.	                      Boosting tries to reduce bias.
+   6.	    If the classifier is unstable (high variance), then apply bagging.	      If the classifier is stable and simple (high bias) the apply boosting.
+   7.	    Random forest.	                                                      Gradient boosting. 
+
+Ans8. Out-of-bag (OOB) error, also called out-of-bag estimate, is a method of measuring the prediction error of random forests, boosted decision trees,
+      and other machine learning models utilizing bootstrap aggregating (bagging) to sub-sample data samples used for training. OOB is the mean prediction
+      error on each training sample xᵢ, using only the trees that did not have xᵢ in their bootstrap sample.
+      Subsampling allows one to define an out-of-bag estimate of the prediction performance improvement by evaluating predictions on those observations
+      which were not used in the building of the next base learner. 
+
+Ans9. K-Fold CV is where a given data set is split into a K number of sections/folds where each fold is used as a testing set at some point. 
+      Lets take the scenario of 5-Fold cross validation(K=5). Here, the data set is split into 5 folds. In the first iteration, the first fold is used to test 
+      the model and the rest are used to train the model. In the second iteration, 2nd fold is used as the testing set while the rest serve as the training set.
+      This process is repeated until each fold of the 5 folds have been used as the testing set.
+
+Ans10. Parameters which define the model architecture are referred to as hyperparameters and thus this process of searching for the ideal model 
+       architecture is referred to as hyperparameter tuning. Hyperparameters are not model parameters and they cannot be directly trained from the data. 
+       Model parameters are learned during training when we optimize a loss function using something like gradient descent.
+       Hyperparameters are important because they directly control the behaviour of the training algorithm and have a significant impact on the performance
+       of the model is being trained. “A good choice of hyperparameters can really make an algorithm shine” Easy to manage a large set of experiments 
+       for hyperparameter tuning.
+
+Ans11. The learning rate is a hyperparameter that controls how much to change the model in response to the estimated error each time the model weights
+       are updated. Choosing the learning rate is challenging as a value too small may result in a long training process that could get stuck, whereas 
+       a value too large may result in learning a sub-optimal set of weights too fast or an unstable training process.
+       A learning rate that is too large can cause the model to converge too quickly to a suboptimal solution. Large learning rates result in unstable
+       training and tiny rates result in a failure to train.
+
+Ans12. No, Because Logistic Regression is considered a generalized linear model because the outcome always depends on the sum of the inputs and parameters. 
+       Or in other words, the output cannot depend on the product (or quotient, etc.) of its parameters.
+
+Ans13. Adaboost is more about ‘voting weights’ and Gradient boosting is more about ‘adding gradient optimization’. Adaboost increases the accuracy by giving more
+       weightage to the target which is misclassified by the model. At each iteration, Adaptive boosting algorithm changes the sample distribution by modifying the
+       weights attached to each of the instances. It increases the weights of the wrongly predicted instances and decreases the ones of the correctly predicted
+       instances.
+
+       Gradient boosting calculates the gradient (derivative) of the Loss Function with respect to the prediction (instead of the features). Gradient boosting 
+       increases the accuracy by minimizing the Loss Function (error which is difference of actual and predicted value) and having this loss as target for the next 
+       iteration.
+       Gradient boosting algorithm builds first weak learner and calculates the Loss Function. It then builds a second learner to predict the loss after the first 
+       step. The step continues for third learner and then for fourth learner and so on until a certain threshold is reached.
+
+Ans14. If our model is too simple and has very few parameters then it may have high bias and low variance. On the other hand if our model has large
+       number of parameters then it’s going to have high variance and low bias. So we need to find the right/good balance without overfitting and 
+       underfitting the data.This tradeoff in complexity is why there is a tradeoff between bias and variance. An algorithm can’t be more complex and
+       less complex at the same time.To build a good model, we need to find a good balance between bias and variance such that it minimizes the total error.
+       Bias is the simplifying assumptions made by the model to make the target function easier to approximate.
+       Variance is the amount that the estimate of the target function will change given different training data.
+       Trade-off is tension between the error introduced by the bias and the variance.
+
+Ans15. Linear:- Linear Kernel is used when the data is Linearly separable, that is, it can be separated using a single Line. It is one of the most 
+       common kernels to be used.  It is mostly used when there are a Large number of Features in a particular Data Set. One of the examples where there are a lot   
+       of features, is Text Classification, as each alphabet is a new feature. So we mostly use Linear Kernel in Text Classification.
+  
+       RBF:- When the data set is linearly inseparable or in other words, the data set is non-linear, it is recommended to use kernel functions such as RBF.
+       SVM parameters such as Gamma and C used with RBF kernel will enable you to select the appropriate values of Gamma and C and train the most optimal model using 
+       the SVM algorithm. Let's understand why we should use kernel functions such as RBF.   
+  
+       Polynomial:- In machine learning, the polynomial kernel is a kernel function commonly used with support vector machines (SVMs) and other kernelized models, 
+       that represents the similarity of vectors (training samples) in a feature space over polynomials of the original variables, allowing learning of non-linear 
+       models.The polynomial kernel looks not only at the given features of input samples to determine their similarity, but also combinations of these.   

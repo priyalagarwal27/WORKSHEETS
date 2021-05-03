@@ -1,0 +1,25 @@
+                                                        WORKSHEET-5  SQL(Structured Query Language)
+
+                                             
+Ans1. SELECT * from Movie;
+
+Ans2. SELECT title, runtime FROM Movie WHERE runtime = (SELECT MAX(runtime) FROM Movie);
+
+Ans3. SELECT title, revenue FROM Movie WHERE revenue = (SELECT MAX(revenue) FROM Movie);
+
+Ans4. SELECT title, budget FROM Movie WHERE budget = (SELECT MAX(runtime) FROM Movie);
+
+Ans7. Select genre_id, genre_name from genre;
+
+Ans8. Select language_name from Language join Movie_Language on language_name.language_id=movie_id.language_id ;
+
+Ans10. SELECT title FROM Movie ORDER BY popularity DESC limit10;
+
+Ans12. SELECT title  FROM Movie WHERE movie_status= “rumoured” ;
+
+Ans13. SELECT country_name, country_id FROM country JOIN production_country on movie_id = movie_id.country_id JOIN movie on movie_id 
+       WHERE revenue = (SELECT MAX(revenue) FROM Movie AND country_name=’United States of America’ FROM country);
+
+Ans14. Select movie_id from Movie_Componey join Production_Componey on movie_id.componey_id=componey_name.componey_id ;
+
+Ans15. SELECT title FROM Movie ORDER BY budget DESC limit20;
